@@ -18,3 +18,7 @@ list-dependencies:
 
 edit:
 	$EDITOR {{ justfile() }}
+
+build:
+	go build {{ invocation_directory() }}
+
