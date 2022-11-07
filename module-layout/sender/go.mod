@@ -1,3 +1,3 @@
-module get-started/modules
+module get-started/sender
 
 go 1.19
