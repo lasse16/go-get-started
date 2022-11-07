@@ -15,3 +15,6 @@ update-packages:
 list-dependencies:
 	# include -u to check for available updates
 	go list -m all
+
+edit:
+	$EDITOR {{ justfile() }}
