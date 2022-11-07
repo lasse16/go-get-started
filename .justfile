@@ -8,3 +8,5 @@ update-packages:
 # Intended way
 update-packages-alt:
 	go get .
+	# for specific packages
+	# go get example.com/theirmodule
