@@ -2,7 +2,8 @@
 run:
 	go run .
 
-update-packages:
+clean-dependencies:
+	# Add references to go.mod and clean unused dependencies
 	go mod tidy
 
 # Intended way
