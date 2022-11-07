@@ -22,3 +22,6 @@ edit:
 build:
 	go build {{ invocation_directory() }}
 
+install:
+	# install to local go directory e.g. ~/go/bin
+	go install 
