@@ -6,12 +6,10 @@ clean-dependencies:
 	# Add references to go.mod and clean unused dependencies
 	go mod tidy
 
-# Intended way
-update-packages-alt:
+update-packages:
 	go get .
 	# for specific packages
 	# go get example.com/theirmodule
-	#
 
 list-dependencies:
 	# include -u to check for available updates
