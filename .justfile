@@ -1,6 +1,7 @@
 # https://just.systems/man/en/
+
 run:
-	go run .
+	go run {{ invocation_directory() }}
 
 clean-dependencies:
 	# Add references to go.mod and clean unused dependencies
